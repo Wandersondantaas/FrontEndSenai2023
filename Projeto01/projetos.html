@@ -18,7 +18,7 @@
             width: 100px;
         }
 
-        #quadro01, #quadro02, #quadro03, #quadro04, #quadro05, #quadro06
+        #quadro01, #quadro02
         {
             border-width: 50px 50px 80px;
             border-style: solid;
@@ -26,8 +26,44 @@
             border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqezrtaN3KZVSmcEC5UxQmCILKd6S-8-cK3A&usqp=CAU);
             border-image-width: 80px;
             border-image-slice: 70;
-            
+        }
 
+        .direita
+        {
+            margin-left: 150px;
+        }
+
+        .esquerda
+        {
+            margin-left: 15px;
+        }
+
+        #texto01
+        {
+            margin-top: 80px;
+            margin-left: 18px;
+
+        }
+
+        #texto02
+        {
+            margin-top: 20px;
+            margin-left: 442px;
+        }
+
+        #link01
+        {
+            margin-left: 170px;
+        }
+
+        #link02
+        {
+            margin-left: 530px;
+        }
+
+        #subir
+        {
+            margin-bottom: 100px;
         }
 
         h1
@@ -73,25 +109,29 @@
             <tr>
                 <td>
                     <table>
-                        <div align="center">
-                            <b>PROJETO-01:</b><br>
-                            <img src="imagem/projetos1.png" alt="" id="quadro01"><br><a href="#">Link</a>
-                            <br><br>
-                            <b>PROJETO-02:</b><br>
-                            <img src="imagem/projetos2.png" alt="" id="quadro02"><br><a href="#">Link</a>
-                            <br><br>
-                            <b>PROJETO-03:</b><br>
-                            <img src="imagem/projetos3.png" alt=""id="quadro03"><br><a href="#">Link</a>
-                            <br><br>
-                            <b>PROJETO-04:</b><br>
-                            <img src="imagem/projetos4.png" alt="" id="quadro04"><br><a href="#">Link</a>
-                            <br><br>
-                            <b>PROJETO-05:</b><br>
-                            <img src="imagem/projetos5.png" alt="" id="quadro05"><br><a href="#">Link</a>
-                            <br><br>
-                            <b>PROJETO-06:</b><br>
-                            <img src="imagem/projetos6.png" alt="" id="quadro06"><br><a href="#">Link</a>
-                            <br><br>
+                        <h1 align="center" id="subir">PROJETOS</h1>
+                            <b id="texto01">PROJETO-01:</b>
+                            <b id="texto02">PROJETO-02:</b>
+                            <img src="imagem/projetos1.png" alt="" id="quadro01" class="esquerda">&nbsp;
+                            <img src="imagem/projetos2.png" alt="" id="quadro02" class="direita"><br>
+                            <a href="#" id="link01">Link01</a>
+                            <a href="#" id="link02">Link02</a>
+                            <br><br><br><br><br>
+                            <b id="texto01">PROJETO-03:</b>
+                            <b id="texto02">PROJETO-04:</b>
+                            <img src="imagem/projetos3.png" alt=""id="quadro01" class="esquerda">
+                            <img src="imagem/projetos4.png" alt="" id="quadro01" class="direita"><br>
+                            <a href="#" id="link01">Link03</a>
+                            <a href="#" id="link02">Link04</a>
+                            <br><br><br><br><br>
+                            <b id="texto01">PROJETO-05:</b>
+                            <b id="texto02">PROJETO-06:</b>
+                            <img src="imagem/projetos5.png" alt="" id="quadro01" class="esquerda">
+                            <img src="imagem/projetos6.png" alt="" id="quadro01" class="direita"><br>
+                            <a href="#" id="link01">Link05</a>
+                            <a href="#" id="link02">Link06</a>
+                            
+                            
                         </div>
                     </table>
                 </td>
