@@ -1,9 +1,6 @@
-## HTML WEB DEVELOPER
+## Projeto 01 
 
 ### [Link do Projeto](https://wandersondantaas.github.io/FrontEndSenai2023/Projeto01/)
-
-
-[Clique aqui para abrir o projeto](https://wandersondantaas.github.io/landing-page-academia/)
 
 ### Desenvolvido com HTML e CSS.
 <div style="display: inline_block" >
