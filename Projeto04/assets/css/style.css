@@ -1,0 +1,167 @@
+/* Resets e configs  */
+body {
+    transition: all .3s ease; /* <== adiciona esse transition apenas para uma animação suave para o darkmode */
+    margin: 0;
+    padding: 0;
+    background: #FDFDFD;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  
+  * {
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .absolute-center { /* Centraliza absolutamente ao meio */
+      position: absolute;
+      top: 45%;
+      left: 0;
+      width: 100%;
+    margin-top: 0px;
+      transform: translateY(-50%);
+      z-index: 20;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Resets e configs termina aqui */
+  
+  /* Formulário / calculadora */
+  input::placeholder {
+    font-size: 0.8em;
+    font-weight: 200;
+    opacity: 0.3;
+  }
+  
+  #calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  form h1{
+    text-align: center;
+  }
+
+  #formulario {
+    width: 580px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0 20px 60px 0 rgba(186,200,227,.1), 0 16px 36px 10px rgba(186,200,227,.3);
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons a{
+    color: #FFC83D;
+    font-size: 30px;
+}
+
+.social-icons a:hover{
+ color: black;
+}
+  
+  form input, form label, form button {
+    display: block;
+    width: 100%;
+    outline: none !important;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 10px;
+    outline: 1px solid #FFC83D;
+  }
+  
+  form input:focus {
+    outline: 2px solid #FFC83D;
+  }
+  
+  form button {
+    border: none;
+    background: #fcc02a;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all .3s ease;
+    border-radius: 2px;
+    width: 100%;
+  }
+  
+  form button:hover {
+    
+    background-color: rgba(0, 128, 0, 0.901);
+  }
+  
+  strong {
+    color: #ffc022;
+  }
+  /* Formulário / calculadora termina aqui */
+  
+  /* Responsivo */
+  @media (min-width: 300px) and (max-width: 700px)  {
+  
+    #calculadora {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    
+    #formulario {
+      width: 350px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 10px 10px 10px 10px;
+    }
+  
+    .absolute-center {
+      position: absolute;
+      top: 42%;
+      left: 0;
+      width: 100%;
+      margin-top: 0px;
+      transform: translateY(-50%);
+      z-index: 20;
+    }
+      
+  }
+  /* Responsivo termina aqui */
+
+  footer{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
+  }
