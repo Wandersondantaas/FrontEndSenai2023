@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    
+  }
+  
+  h2 {
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    
+  }
+  
+  input,
+  select{
+      width: 150px;
+      height: 30px;
+      font-size: 15px;
+      background-color: black;
+      border:none;
+      color: white;
+      margin:3px;	
+  }
+  
+  button {
+      width: 150px;
+      height: 30px;
+      font-size: 15px;
+      background-color: green;
+      border:none;
+      color:white;
+      margin:3px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .degrade{
+      background: url(https://usagif.com/wp-content/uploads/gifs/raining-money-31.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height:92vh;
+      color: white;
+      font-family:Comic Sans Ms;
+      text-align:center;
+  }	
+  
+  .container{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .outer-container {
+      width:500px;
+      margin: 0 auto;
+      text-align:center;
+      background: transparent; /* Cor de fundo */
+      padding: 20px; /* Espaçamento interno */
+      border-radius: 10px; /* Valor do raio do arredondamento */
+      overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+  }
+  
+  .conversorMoedas{
+      position:absolute;
+      background-color: white;
+      top: 50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      border-radius:15px;
+      padding:15px;
+      box-shadow: 2px 2px 2px black ;
+  }
+  
+  .result-container{
+      margin-top: 10px;
+      background-color: #dbdada;
+      color: black;
+      font-weight: bolder;
+      padding: 0px;
+      border-radius: 5px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align:center !important;
+  }
+  
+  footer {
+      background: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-weight: bolder;
+      
+  }
+
+  footer a{
+    text-decoration: none;
+    color: darkgrey;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
+  }
+
+  a:visited {
+      color: darkgrey;
+  }
+  
+  .social-icons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+  }
+  
+  .social-icons a {
+      color: green;
+      font-size: 20px;
+      margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+      color: rgba(0, 128, 0, 0.527); /* Ou a cor desejada para o hover */
+  }
