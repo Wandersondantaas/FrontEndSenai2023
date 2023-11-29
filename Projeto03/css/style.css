@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.outer-container{
+    background: linear-gradient(to top, black, black);
+   padding: 20px;
+   overflow: hidden;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+   
+}
+
+.social-icons a:hover{
+    color: grey;
+}
+
+
+.degrade{
+    background-image: url(/imagens/fundo.jpg);
+    background-position: center center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    color: white;
+    font-family: Comic Sans Ms;
+    text-align: center;
+}
+
+.degrade h1{
+    padding-top: 160px;
+}
+
+.calculadora{
+    position: absolute;
+    background: linear-gradient(to bottom,black, grey, rgb(56, 55, 55));
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    margin: 3px;
+    background-color: #2b2a2a;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+
+    
+}
+
+#resultado{
+    background-color: white;
+    width: 220px;
+    height: 45px;
+    margin: 5px;
+    padding: 5px;
+   color: black;
+   font-size: 25px;
+   text-align: right;
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: grey;
+}
